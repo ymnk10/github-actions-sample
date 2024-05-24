@@ -60,6 +60,11 @@ class MathUtilTest {
     }
 
     @Test
+    void testPower(){
+        fail("failure");
+    }
+
+    @Test
     void testPower1() {
         double actualAnswer = MathUtil.power(0, -2);
         assertEquals(Double.POSITIVE_INFINITY, actualAnswer, "TC1:期待値と実際の結果が異なります");
